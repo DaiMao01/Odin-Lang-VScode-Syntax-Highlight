@@ -32,35 +32,35 @@
 		"strings": {
 			"patterns": [
 				{
-					"name": "string.quoted.double.mylanguage",
+					"name": "string.quoted.double.odin",
 					"begin": "\"",
 					"beginCaptures": {
-						"0": { "name": "punctuation.definition.string.begin.mylanguage" }
+						"0": { "name": "punctuation.definition.string.begin.odin" }
 					},
 					"end": "\"",
 					"endCaptures": {
-						"0": { "name": "punctuation.definition.string.end.mylanguage" }
+						"0": { "name": "punctuation.definition.string.end.odin" }
 					},
 					"patterns": [
 						{
-						"name": "constant.character.escape.mylanguage",
+						"name": "constant.character.escape.odin",
 						"match": "\\\\(?:[abefnrtv\\\\'\"]|[0-7]{3}|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})"
 						}
 					]
 				},
 				{
-					"name": "string.quoted.single.mylanguage",
+					"name": "string.quoted.single.odin",
 					"begin": "'",
 					"beginCaptures": {
-						"0": { "name": "punctuation.definition.string.begin.mylanguage" }
+						"0": { "name": "punctuation.definition.string.begin.odin" }
 					},
 					"end": "'",
 					"endCaptures": {
-						"0": { "name": "punctuation.definition.string.end.mylanguage" }
+						"0": { "name": "punctuation.definition.string.end.odin" }
 					},
 					"patterns": [
 						{
-						"name": "constant.character.escape.mylanguage",
+						"name": "constant.character.escape.odin",
 						"match": "\\\\(?:[abefnrtv\\\\'\"]|[0-7]{3}|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})"
 						}
 					]
@@ -83,37 +83,37 @@
 		},
 		"comments": {
 			
-			"name": "comment.block.mylanguage",
+			"name": "comment.block.odin",
 			"begin": "/\\*",
 			"beginCaptures": {
 				"0": {
-				"name": "punctuation.definition.comment.begin.mylanguage"
+				"name": "punctuation.definition.comment.begin.odin"
 				}
 			},
 			"end": "\\*/",
 			"endCaptures": {
-				"0": {"name": "punctuation.definition.comment.end.mylanguage"}
+				"0": {"name": "punctuation.definition.comment.end.odin"}
 			},
 			"patterns": [
 				{
-				"name": "storage.type.class.todo.mylanguage",
+				"name": "storage.type.class.todo.odin",
 				"match": "\\b(TODO|FIXME|NOTE|HACK)\\b"
 				}
 			]
 
 		},
 		"numbers": {
-  				"name": "constant.numeric.mylanguage",
+  				"name": "constant.numeric.odin",
   				"match": "\\b(0[xX][0-9a-fA-F]+|0[bB][01]+|0[oO][0-7]+|([0-9]+(\\.[0-9]+)?|\\.[0-9]+)([eE][+-]?[0-9]+)?)\\b"
 		},
 		"basic-types": {
 			"patterns": [
 				{
-				"name": "storage.type.primitive.mylanguage",
+				"name": "storage.type.primitive.odin",
 				"match": "\\b(bool|b8|b16|b32|b64|int|i8|i16|i32|i64|i128|uint|u8|u16|u32|u64|u128|uintptr|i16le|i32le|i64le|i128le|u16le|u32le|u64le|u128le|i16be|i32be|i64be|i128be|u16be|u32be|u64be|u128be|f16|f32|f64|f16le|f32le|f64le|f16be|f32be|f64be|complex32|complex64|complex128|quaternion64|quaternion128|quaternion256|rune|string|cstring|rawptr|typeid|any)\\b"
 				},
 				{
-				"name": "entity.name.type.mylanguage",
+				"name": "entity.name.type.odin",
 				"match": "\\b[A-Z][a-zA-Z0-9_]*\\b"
 				}
 			]
