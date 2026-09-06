@@ -44,7 +44,7 @@
 					"patterns": [
 						{
 						"name": "constant.character.escape.mylanguage",
-						"match": "\\\\([abefnrtv\\\\'\"]|[0-7]{3}|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})"
+						"match": "\\\\(?:[abefnrtv\\\\'\"]|[0-7]{3}|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})"
 						}
 					]
 				},
